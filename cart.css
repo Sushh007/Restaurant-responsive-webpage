@@ -1,0 +1,51 @@
+/* Add styles for the cart items and remove button */
+.cart-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.cart-item img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.cart-item h3 {
+    flex-grow: 1;
+    margin: 0 20px;
+}
+
+.cart-item span {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.remove-from-cart {
+    background-color: #ff4500;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.remove-from-cart:hover {
+    background-color: #ff6347;
+}
+
+.total {
+    text-align: right;
+    margin-right: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+}

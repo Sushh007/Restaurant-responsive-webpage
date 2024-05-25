@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Burger Website</title>
+
+    <!--Box Icons-->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!-- Link To CSS-->
+    <link rel="stylesheet" href="menu.css">
+
+</head>
+<body>
+
+    <header>
+        <a href="Home.html" class="logo">Taste</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <ul class="navbar">
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="service.html">Service</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="cart.html">View Cart (<span id="cart-count">0</span>)</a></li>
+            <div class="bx bx-moon" id="darkmode"></div>
+        </ul>
+    </header>
+    
+
+    
+
+    <!--  Menu  -->
+    <section class="menu" id="menu">
+        <div class="heading">
+            <span>Menu</span>
+            <h2>Tasty menu of the week</h2>
+        </div>
+        <div class="menu-container">
+            <div class="box">
+                <div class="box-img">
+                    <img src="./img/item4.jpg" alt="">
+                </div>
+                <h2>Chataka Pizza </h2>
+                <h3>Tasty Food</h3>
+                <span>Rs 250</span>
+                <!-- <i class='bx bx-cart-alt'></i> -->
+                <button class='add-to-cart' data-name="Chataka Pizza" data-price="250" data-img="./img/item4.jpg">Add to Cart</button>
+            </div>
+            <div class="box">
+                <div class="box-img">
+                    <img src="./img/item_4.webp" alt="">
+                </div>
+                <h2>Panner Tikka</h2>
+                <h3>Tasty Food</h3>
+                <span>Rs:90</span>
+                <!-- <i class='bx bx-cart-alt add-to-cart' data-name="Panner Tikka" data-price="90" data-img="./img/item4.jpg"></i> -->
+                <button class='add-to-cart' data-name="Panner Tikka" data-price="90" data-img="./img/item_4.webp">Add to Cart</button>
+            </div>
+            <div class="box">
+                <div class="box-img">
+                    <img src="./img/item1.webp"  alt="">
+                </div>
+                <h2>Cheese Burger</h2>
+                <h3>Tasty Food</h3>
+                <span>Rs 120</span>
+                <!-- <i class='bx bx-cart-alt add-to-cart' data-name="Cheese Burger" data-price="100" data-img="./img/item4.jpg"></i> -->
+                <button class='add-to-cart' data-name="Cheese Burger" data-price="120" data-img="./img/item1.webp">Add to Cart</button>
+            </div>
+            
+            <div class="box">
+                <div class="box-img">
+                    <img src="./img/item5.jpg" alt="">
+                </div>
+                <h2>Double Daker Burger </h2>
+                <h3>Tasty Food</h3>
+                <span>Rs 200</span>
+                <!-- <i class='bx bx-cart-alt add-to-cart' data-name="Mastani pizza" data-price="100" data-img="./img/item4.jpg"></i> -->
+                <button class='add-to-cart' data-name="Double Daker Burger" data-price="200" data-img="./img/item5.jpg">Add to Cart</button>
+
+            </div>
+            <div class="box">
+                <div class="box-img">
+                    <img src="./img/item6.jpg" alt="">
+                </div>
+                <h2>Panner Tikka Burger</h2>
+                <h3>Tasty Food</h3>
+                <span>Rs:180</span>
+                <!-- <i class='bx bx-cart-alt add-to-cart' data-name="Cheese Burger" data-price="100" data-img="./img/item6.jpg"></i> -->
+                <button class='add-to-cart' data-name="Panner Tikka Burger" data-price="180" data-img="./img/item6.jpg">Add to Cart</button>
+            </div>
+        
+
+            <div class="box">
+                <div class="box-img">
+                    <img src="./img/item8.jpg" alt="">
+                </div>
+                <h2>Egg Roll </h2>
+                <h3>Tasty Food</h3>
+                <span>Rs 80</span>
+                <button class='add-to-cart' data-name="Egg Roll" data-price="80" data-img="./img/item8.jpg">Add to Cart</button>
+
+            </div>
+            <div class="box">
+                <div class="box-img">
+                    <img src="./img/item9.jpg" alt="">
+                </div>
+                <h2>Hakka Noodles</h2>
+                <h3>Tasty Food</h3>
+                <span>Rs:160</span>
+                <button class='add-to-cart' data-name="Hakka Noodles" data-price="160" data-img="./img/item9.jpg">Add to Cart</button>
+
+            </div>
+            <div class="box">
+                <div class="box-img">
+                    <img src="./img/item10.jpg"  alt="">
+                </div>
+                <h2>Manchurian</h2>
+                <h3>Tasty Food</h3>
+                <span>Rs 80</span>
+                <button class='add-to-cart' data-name="Manchurian" data-price="80" data-img="./img/item10.jpg">Add to Cart</button>
+
+            </div>
+
+            <div class="box">
+                <div class="box-img">
+                    <img src="./img/item11.jpg" alt="">
+                </div>
+                <h2>Green Kabab </h2>
+                <h3>Tasty Food</h3>
+                <span>Rs 120</span>
+                <button class='add-to-cart' data-name="Harra kabab" data-price="120" data-img="./img/item11.jpg">Add to Cart</button>
+
+            </div>
+            <div class="box">
+                <div class="box-img">
+                    <img src="./img/item12.png" alt="">
+                </div>
+                <h2>Mexican Burger</h2>
+                <h3>Tasty Food</h3>
+                <span>Rs: 145</span>
+                <button class='add-to-cart' data-name="Mexican Burger" data-price="145" data-img="./img/item12.png">Add to Cart</button>
+
+            </div>
+            <div class="box">
+                <div class="box-img">
+                    <img src="./img/item16.jpg"  alt="">
+                </div>
+                <h2>Sizzler</h2>
+                <h3>Tasty Food</h3>
+                <span>Rs 120</span>
+                <button class='add-to-cart' data-name="Sizzler" data-price="120" data-img="./img/item16.jpg">Add to Cart</button>
+
+            </div>
+
+            <div class="box">
+                <div class="box-img">
+                    <img src="./img/item17.jpg" alt="">
+                </div>
+                <h2>Mix vegie meal </h2>
+                <h3>Tasty Food</h3>
+                <span>Rs 100</span>
+                <button class='add-to-cart' data-name="Mix vegie meal" data-price="100" data-img="./img/item17.jpg">Add to Cart</button>
+
+            </div>
+            <div class="box">
+                <div class="box-img">
+                    <img src="./img/item18.png" alt="">
+                </div>
+                <h2>Panner Tikka Masala</h2>
+                <h3>Tasty Food</h3>
+                <span>Rs:135</span>
+                <button class='add-to-cart' data-name="Panner Tikka Masala" data-price="135" data-img="./img/item18.png">Add to Cart</button>
+
+            </div>
+            <div class="box">
+                <div class="box-img">
+                    <img src="./img/item19.jpg"  alt="">
+                </div>
+                <h2>Cheese Burger</h2>
+                <h3>Tasty Food</h3>
+                <span>Rs 120</span>
+                <button class='add-to-cart' data-name="Cheese Burger" data-price="120" data-img="./img/item19.jpg">Add to Cart</button>
+
+            </div>
+
+            <div class="box">
+                <div class="box-img">
+                    <img src="./img/item20.png" alt="">
+                </div>
+                <h2>Greek Salad </h2>
+                <h3>Tasty Food</h3>
+                <span>Rs 100</span>
+                <button class='add-to-cart' data-name="Greek Salad" data-price="100" data-img="./img/item20.png">Add to Cart</button>
+
+            </div>
+            <div class="box">
+                <div class="box-img">
+                    <img src="./img/item21.png" alt="">
+                </div>
+                <h2>Grilled Sandwich</h2>
+                <h3>Tasty Food</h3>
+                <span>Rs:90</span>
+                <button class='add-to-cart' data-name="Grilled Sandwich" data-price="90" data-img="./img/item21.png">Add to Cart</button>
+
+            </div>
+        
+
+        </div>
+    </section>
+    <a href="cart.html" class="view-cart" id="view-btn">View Cart</a>
+
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <div class="contact-box">
+            <h3>Food Taste</h3>
+            <span>Connect with Us</span>
+            <div class="social">
+                <a href="#"><i class='bx bxl-facebook' ></i></a>
+                <a href="#"><i class='bx bxl-instagram' ></i></a>
+                <a href="#"><i class='bx bxl-twitter' ></i></i></a>
+            </div>
+        </div>
+        <div class="contact-box">
+            <h3>Menu Links</h3>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="service.html">Service</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </div>
+        
+        <div class="contact-box">
+            <h3>Quick Links</h3>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#Privacy Policy">Privacy Policy</a></li>
+            <li><a href="#Disclaimer">Disclaimer</a></li>
+            <li><a href="#Terms Of Use">Terms Of Use</a></li>
+        </div>
+
+        <div class="contact-box address">
+            <h3>Contact</h3>
+            <i class="bx bxs-map"><span>007 behram baug, mumbai</span></i>
+            <i class="bx bxs-phone"><span>91+ xxx xxx x789</span></i>
+            <i class="bx bxs-envelope"><span>Example123#email.com</span></i>
+        </div>
+    </section>
+    
+    <!-- Copyright -->
+    <div class="copyright">
+        <p>&#169; Copyright All Right Reserved</p>
+    </div>
+
+
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    
+    <!--Link To Javascript-->
+    <script src="./main.js"></script>
+</body>
+</html>

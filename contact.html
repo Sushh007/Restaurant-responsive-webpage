@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Burger Website</title>
+
+    <!--Box Icons-->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!-- Link To CSS-->
+    <link rel="stylesheet" href="contact.css">
+
+    
+    <!--Iconscout CDN-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+
+    <!--Google Fonts (Montserrat)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Poppins:wght@100;300;400;600;700&display=swap"
+        rel="stylesheet"
+    >
+    
+    
+
+</head>
+<body>
+
+    <!-- Navbar-->
+    <header>
+        <a href="Home.html" class="logo">Taste</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <ul class="navbar">
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="service.html">Service</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="cart.html">View Cart (<span id="cart-count">0</span>)</a></li>
+            <div class="bx bx-moon" id="darkmode"></div>
+        </ul>
+    </header>
+
+
+    <section class="contact">
+        <div class="container contact__container">
+
+            <aside class="contact__aside">
+                <div class="aside__image">
+                    <img src="./img/contact.svg" alt="">
+                </div>
+                <h2>Contact Us</h2>
+                <p>Like our work? Well you can reach us out!
+                </p>
+                <ul class="contact__details">
+                    <li>
+                        <i uil uil-phone-times></i>
+                        <h5>+9846535154</h5>
+                    </li>
+                    <li>
+                        <i uil uil-envelope></i>
+                        <h5>support@Taste.com</h5>
+                    </li>
+                    <li>
+                        <i uil uil-location-point></i>
+                        <h5>D.N Nagar, Andheri-400053</h5>
+                    </li>
+                </ul>
+                <ul class="contact__socials">
+                    <li> <a href="https://facebook.com"><i class="uil uil-facebook-f"></i></a></li>
+                    <li> <a href="https://instagram.com"><i class="uil uil-instagram"></i></a></li>
+                    <li> <a href="https://twitter.com"><i class="uil uil-twitter"></i></a></li>
+                    <li> <a href="https://linkedin.com"><i class="uil uil-linkedin-alt"></i></a></li>
+                    <li> <a href="https://whatsapp.com"><i class="uil uil-whatsapp"></i></a></li>
+                </ul>
+            </aside>
+
+            <form class="contact__form">
+                <div class="form__name">
+                    <input type="text" name="First Name" placeholder="First Name" required>
+                    <input type="text" name="Last Name" placeholder="Last Name" required>
+                </div>
+                <input type="email" name="Email Address" placeholder="Your Email Address" required>
+                <textarea name="Message" rows="7" placeholder="Message" required></textarea>
+                <button type="button" class="btn btn-primary">Send Message</button> 
+            </form>
+        </div>
+    </section>
+
+    
+    <!-- Contact -->
+    <section class="contact2" id="contact2">
+        <div class="contact2-box">
+            <h3>Food Taste</h3>
+            <span>Connect with Us</span>
+            <div class="social">
+                <a href="#"><i class='bx bxl-facebook' ></i></a>
+                <a href="#"><i class='bx bxl-instagram' ></i></a>
+                <a href="#"><i class='bx bxl-twitter' ></i></i></a>
+            </div>
+        </div>
+        <div class="contact2-box">
+            <h3>Menu Links</h3>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#service">Service</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </div>
+        
+        <div class="contact2-box">
+            <h3>Quick Links</h3>
+            <li><a href="#Contact">Contact</a></li>
+            <li><a href="#Privacy Policy">Privacy Policy</a></li>
+            <li><a href="#Disclaimer">Disclaimer</a></li>
+            <li><a href="#Terms Of Use">Terms Of Use</a></li>
+        </div>
+
+        <div class="contact2-box address">
+            <h3>Contact</h3>
+            <i class="bx bxs-map"><span>007 behram baug, mumbai</span></i>
+            <i class="bx bxs-phone"><span>91+ xxx xxx x789</span></i>
+            <i class="bx bxs-envelope"><span>Example123#email.com</span></i>
+        </div>
+    </section>
+
+    <!-- Copyright -->
+    <div class="copyright">
+        <p>&#169; Copyright All Right Reserved</p>
+    </div>
+
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    
+    <!--Link To Javascript-->
+    <script src="./main.js"></script>
+</body>
+</html>

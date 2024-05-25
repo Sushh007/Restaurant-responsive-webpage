@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+
+    <!--Box Icons-->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!-- Link To CSS-->
+    <link rel="stylesheet" href="./cart.css">
+    <link rel="stylesheet" href="./menu.css">
+</head>
+<body>
+
+    <header>
+        <a href="Home.html" class="logo">Taste</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <ul class="navbar">
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="service.html">Service</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="cart.html">View Cart (<span id="cart-count">0</span>)</a></li>
+            <div class="bx bx-moon" id="darkmode"></div>
+        </ul>
+    </header>
+
+    <!-- Cart Section -->
+    <section class="cart" id="cart">
+        <div class="heading">
+            <span>Your Cart</span>
+            <h2>Review Your Selections</h2>
+        </div>
+        <div class="cart-container" id="cart-container">
+            <!-- Cart items will be dynamically inserted here -->
+        </div>
+        <div class="total">
+            <h3>Total: Rs <span id="total-price">0</span></h3>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <div class="contact-box">
+            <h3>Food Taste</h3>
+            <span>Connect with Us</span>
+            <div class="social">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></i></a>
+            </div>
+        </div>
+        <div class="contact-box">
+            <h3>Menu Links</h3>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="service.html">Service</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </div>
+        
+        <div class="contact-box">
+            <h3>Quick Links</h3>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#Privacy Policy">Privacy Policy</a></li>
+            <li><a href="#Disclaimer">Disclaimer</a></li>
+            <li><a href="#Terms Of Use">Terms Of Use</a></li>
+        </div>
+
+        <div class="contact-box address">
+            <h3>Contact</h3>
+            <i class="bx bxs-map"><span>007 behram baug, mumbai</span></i>
+            <i class="bx bxs-phone"><span>91+ xxx xxx x789</span></i>
+            <i class="bx bxs-envelope"><span>Example123#email.com</span></i>
+        </div>
+    </section>
+    
+    <!-- Copyright -->
+    <div class="copyright">
+        <p>&#169; Copyright All Right Reserved</p>
+    </div>
+
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    
+    <!-- Link To Javascript -->
+    <script src="./cart.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>

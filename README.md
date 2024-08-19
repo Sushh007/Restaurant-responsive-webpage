@@ -6,7 +6,7 @@ Explore our restaurant webpage project, a fusion of taste and technology! 🌟 F
 The platform is fully responsive and optimized for various devices, ensuring a smooth and engaging user experience. Whether browsing for your favorite cuisine or managing orders, Taste the Taste brings a rich and intuitive experience to both users and restaurants.
 
 <br />
-
+<hr/>
 Live Demo: https://tastethetaste.netlify.app/
 
 You can customize it further based on specific details or features you want to highlight!
